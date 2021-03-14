@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.github.aoklyunin</groupId>
-  <artifactId>jCollections</artifactId>
+  <artifactId>javaCombiners</artifactId>
   <version>1.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210314.105522</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210314.110728</timestamp>
+      <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20210314105522</lastUpdated>
+    <lastUpdated>20210314110728</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20210314.105522-2</value>
-        <updated>20210314105522</updated>
+        <value>1.0-20210314.110728-1</value>
+        <updated>20210314110728</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20210314.105522-2</value>
-        <updated>20210314105522</updated>
+        <value>1.0-20210314.110728-1</value>
+        <updated>20210314110728</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
