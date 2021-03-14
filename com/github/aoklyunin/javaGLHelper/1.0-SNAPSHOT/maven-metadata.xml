@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.github.aoklyunin</groupId>
-  <artifactId>javaScrollers</artifactId>
+  <artifactId>javaGLHelper</artifactId>
   <version>1.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210314.113115</timestamp>
+      <timestamp>20210314.131052</timestamp>
       <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210314113115</lastUpdated>
+    <lastUpdated>20210314131052</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20210314.113115-2</value>
-        <updated>20210314113115</updated>
+        <value>1.0-20210314.131052-2</value>
+        <updated>20210314131052</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20210314.113115-2</value>
-        <updated>20210314113115</updated>
+        <value>1.0-20210314.131052-2</value>
+        <updated>20210314131052</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
