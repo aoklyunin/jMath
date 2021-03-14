@@ -124,7 +124,7 @@ public class Transform3d {
     /**
      * Конструктор матрицы трансформации
      */
-    private Transform3d() {
+    protected Transform3d() {
     }
 
     /**
