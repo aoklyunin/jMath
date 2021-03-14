@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.github.aoklyunin</groupId>
-  <artifactId>javaGLHelper</artifactId>
+  <artifactId>jCollections</artifactId>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210314104818</lastUpdated>
+    <lastUpdated>20210314105348</lastUpdated>
   </versioning>
 </metadata>
