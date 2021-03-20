@@ -856,12 +856,12 @@ public class CoordinateSystem2i {
 
     /**
      * Строковое представление объекта вида:
-     * "pos, maxEnergy, defaultEnergy"
+     * "min, max"
      *
      * @return строковое представление объекта
      */
     protected String getString() {
-        return max + ", " + min;
+        return min + ", " + max;
     }
 
 
