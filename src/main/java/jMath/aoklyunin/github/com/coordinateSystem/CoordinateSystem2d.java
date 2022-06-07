@@ -7,6 +7,7 @@ import com.sun.istack.NotNull;
 import jMath.aoklyunin.github.com.vector.*;
 import org.apache.commons.math3.util.Precision;
 
+import java.io.Serializable;
 import java.lang.Math;
 import java.util.Objects;
 
@@ -15,7 +16,7 @@ import static jMath.aoklyunin.github.com.vector.Vector2d.VECTOR_2D_OPACITY;
 /**
  * Ограниченная двумерная вещественная система координат
  */
-public class CoordinateSystem2d {
+public class CoordinateSystem2d implements Serializable {
     /**
      * Кол-во знаков после запятой
      */

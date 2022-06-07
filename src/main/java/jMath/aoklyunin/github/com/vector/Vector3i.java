@@ -3,12 +3,13 @@ package jMath.aoklyunin.github.com.vector;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.sun.istack.NotNull;
 
+import java.io.Serializable;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * Класс трёхмерного вектора int
  */
-public class Vector3i {
+public class Vector3i implements Serializable {
     /**
      * x - координата вектора
      */

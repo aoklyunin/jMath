@@ -9,6 +9,7 @@ import com.sun.istack.NotNull;
 import jMath.aoklyunin.github.com.vector.*;
 import org.apache.commons.math3.util.Precision;
 
+import java.io.Serializable;
 import java.lang.Math;
 import java.util.Objects;
 
@@ -19,7 +20,7 @@ import static jMath.aoklyunin.github.com.vector.Vector3d.VECTOR_3D_OPACITY;
  * Ограниченная трёхмерная вещественная система координат
  */
 @JsonPropertyOrder({"min", "max"})
-public class CoordinateSystem3d {
+public class CoordinateSystem3d implements Serializable {
     /**
      * Кол-во знаков после запятой
      */

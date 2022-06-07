@@ -8,6 +8,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.sun.istack.NotNull;
 import jMath.aoklyunin.github.com.vector.*;
 
+import java.io.Serializable;
 import java.lang.Math;
 import java.util.Objects;
 
@@ -15,7 +16,7 @@ import java.util.Objects;
  * Ограниченная трёхмерная целочисленная система координат
  */
 @JsonPropertyOrder({"min", "max"})
-public class CoordinateSystem3i {
+public class CoordinateSystem3i implements Serializable {
     /**
      * минимальная координата
      */

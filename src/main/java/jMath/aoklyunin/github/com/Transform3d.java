@@ -8,6 +8,7 @@ import org.joml.Matrix4d;
 import org.lwjgl.BufferUtils;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.nio.DoubleBuffer;
 
 /**
@@ -15,7 +16,7 @@ import java.nio.DoubleBuffer;
  */
 @Entity
 @MappedSuperclass
-public class Transform3d {
+public class Transform3d implements Serializable {
     /**
      * id матрицы трансформации
      */

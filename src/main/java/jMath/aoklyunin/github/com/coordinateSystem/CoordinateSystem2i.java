@@ -9,13 +9,14 @@ import com.jogamp.opengl.GL2;
 import com.sun.istack.NotNull;
 import jMath.aoklyunin.github.com.vector.*;
 
+import java.io.Serializable;
 import java.lang.Math;
 import java.util.Objects;
 
 /**
  * Ограниченная двумерная целочисленная система координат
  */
-public class CoordinateSystem2i {
+public class CoordinateSystem2i implements Serializable {
     /**
      * максимальная координата
      */

@@ -9,6 +9,7 @@ import com.sun.istack.NotNull;
 import jMath.aoklyunin.github.com.vector.*;
 import org.apache.commons.math3.util.Precision;
 
+import java.io.Serializable;
 import java.lang.Math;
 import java.util.Objects;
 
@@ -19,7 +20,7 @@ import static jMath.aoklyunin.github.com.vector.Vector4d.VECTOR_4D_OPACITY;
  * Ограниченная четырёхмерная вещественная система координат
  */
 @JsonPropertyOrder({"min", "max"})
-public class CoordinateSystem4d {
+public class CoordinateSystem4d implements Serializable {
     /**
      * Кол-во знаков после запятой
      */
